@@ -1,36 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.example.models;
 
-/**
- *
- * @author Mauricio
- */
 public class CompetitorDTO {
  
     private String name;
-    
     private String surname;
-    
     private int age;
-    
     private String telephone;
-    
     private String cellphone;
-    
     private String address;
-    
     private String city;
-    
     private String country;
-    
+    // Nuevo atributo para la contraseña
+    private String password;
     
     public CompetitorDTO(){
-        
     }
 
     public String getName() {
@@ -97,4 +80,12 @@ public class CompetitorDTO {
         this.country = country;
     }
     
+    // Getter y Setter para password
+    public String getPassword() {
+        return password;
+    }
+    
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
